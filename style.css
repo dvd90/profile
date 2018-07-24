@@ -115,3 +115,15 @@ table{
   margin-left: -169px;
   margin-top: 20px;
 }
+
+#morty{
+  height: 423px;
+}
+
+#language img {
+  width: 100px;
+}
+
+#language li {
+  margin-bottom: 80px;
+}
