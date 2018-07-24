@@ -2,20 +2,29 @@
 <head>
   <meta charset="utf-8">
   <title>Basic infos</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
+  <div id="sidebar">
+  <ul>
+    <li><a href="#resume"><i class="fas fa-address-card"></i></a></li>
+    <li><a href="#social-media"><i class="fab fa-angellist"></i></a></li>
+    <li><a href="#language"><i class="fas fa-language"></i></a></li>
+  </ul>
+</div>
+  <div id="page-content">
   <div class="container">
-    <div class="card text-center">
+    <div class="card text-center id="resume">
       <img src="images/ProfileImage.jpg" alt="David" class="img-circle">
       <h1>David Sellam</h1>
       <h2>Le Wagon TLV</h2>
       <p>Sales Manager in a leading financial company, felt in love with coding ♥️</p>
       <a href="https://lewagon.com/tel-aviv" class="btn-green">Ya Habibi Tel Aviv</a>
     </div>
-    <div class="card text-center">
+    <div class="card text-center id="social-media">
       <ul class="list-inline">
         <li>
           <a href="https://www.facebook.com/david.sellam.5" target="_blank">
@@ -24,7 +33,7 @@
         </li>
       </ul>
     </div>
-    <div class="card text-center">
+    <div class="card text-center id="language">
       <h2><strong>Programming Languages</strong></h2>
       <table>
         <tbody>
@@ -59,5 +68,7 @@
       </table>
     </div>
   </div>
+</div>
+
 </body>
 </html>
